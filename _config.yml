@@ -1,0 +1,22 @@
+# Site settings
+name: selfcache
+email: wuming724@gmail.com
+author: zhixiang.zhu
+url: http://www.selfcache.com
+resume_site: http://www.selfcache.com
+github: https://github.com/zzx4441/blogs
+baseurl: ""
+description: 不写了
+meta_description: 不写了
+motto: 不写了
+banner: 不写了
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 15
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+highlighter: Pygments
+
+# Build settings
+markdown: kramdown
